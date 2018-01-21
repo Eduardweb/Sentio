@@ -201,7 +201,15 @@ header .btn-nav button{
 .navbar-nav{
   width: 100%;
 }
-
+.close-modal{
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 1;
+  right: 38px;
+  top: 39px;
+  cursor: pointer;
+}
 /* ========= End Header ========== */
 
 /* ========= Footer ============== */
@@ -459,9 +467,6 @@ header .btn-nav button{
 }
 .contact-us-main .contact-us-title{
   margin-bottom: 77px;
-}
-.contact-us-main .form-request{
-  float: right;
 }
 .contact-us-main .contacts p{
   margin-bottom: 30px;
