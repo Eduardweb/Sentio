@@ -36,12 +36,43 @@
     
     <!-- W3-include  https://www.w3schools.com/howto/howto_html_include.asp-->
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    
+    <!--[if lt IE 9]>
+      <script>
+        document.createElement('video');
+      </script>
+    <![endif]-->
   </head>
   <body>
     <div w3-include-HTML="./header.html"></div>
     <main>
-      
+
+
+    <div class="video-wrap">
+      <video poster="./video/Paperwork.jpg" id="bgvid" playsinline autoplay muted loop>
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="./video/Paperwork.webm" type="video/webm">
+        <source src="./video/Paperwork.mp4" type="video/mp4">
+        <source src="./video/Paperwork.ogv" type="video/ogv">
+      </video>
+    </div>
+
+    <section class="gb-inherit">
+      <div class="container-fluid">
+        <div class="container">
+          <h2 class="color-white">Welcome</h2>
+          <p class="color-white">to the <span class="color-green">Next generation</span> of Continuous Active Learning Predictive Analytics technology.</p>
+          <div class="btn-block">
+            <button class="btn btn-secondary btn-white">
+              Learn More 
+            </button>
+            <button class="btn btn-secondary btn-green" data-toggle="modal" data-target="#myModal">
+              Request a Demo
+            </button>
+          </div>
+        </div>    
+      </div>    
+    </section> 
+
     </main>
     <div w3-include-HTML="./footer.html"></div>
      <!--  Slick slider http://kenwheeler.github.io/slick/ -->

@@ -2,6 +2,7 @@
 /* == Header == */
 /* == Footer == */
 /* == All Page ==* /
+/* == Index == */
 /* == News == */
 /* == Contact Us == */
 @font-face {
@@ -99,6 +100,9 @@ section{
   overflow: hidden;
   background-color: #fff;
   margin: 0 auto;
+}
+.gb-inherit{
+  background-color: inherit;
 }
 .btn{
   font-size: 16px;
@@ -390,9 +394,28 @@ header .btn-nav button{
 }
 /* ========= End All ========== */
 
+/* ========= Index ========== */
+.video-wrap{
+  width: 100%;
+  max-height: 900px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -100;
+}
+video { 
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  display: block;
+  background: url('./../video/Paperwork.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
 
-
-
+/* =========End Index ========== */
 
 /* ========== News ============= */
 .news-main {
