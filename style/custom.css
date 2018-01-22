@@ -370,12 +370,27 @@ header .btn-nav button{
   background-image: url(./../img/bg-contact-us.jpg);
 }
 .page-404{
+  height: 735px;
   background-image: url(./../img/bg-page-404.jpg);
 }
 .page-top-bg .square::before{
   width: 30px;
   height: 29px;
   margin: 0 auto 9px;
+}
+.page-top-p{
+  opacity: 0.7;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: -1.2px;
+  text-align: center;
+  color: #fff;
+}
+.page-top-p + div{
+  margin-top: 50px;
 }
 .request{
   padding: 128px 0;
@@ -385,6 +400,10 @@ header .btn-nav button{
   width: 34px;
   height: 34px;
   margin: 0 0 20px;
+}
+.texture-bg{
+  position: absolute;
+  overflow: hidden;
 }
 .btn-block{
   margin: 38px 0 0;
@@ -525,8 +544,23 @@ video {
 
 /* ========== End Contact Us ====== */
 
+/* ====== Page 404 ================ */
 
-
+.page-404 button:hover{
+  color: #fff;
+}
+.page-404 .texture-bg{
+  width: 560px;
+  height: 560px;
+  top: 87px;
+}
+.page-404 .texture-bg.left-texture{
+  left: 0;
+}
+.page-404 .texture-bg.right-texture{
+  right: 0;
+}
+/* ====== End Page 404 =========== */
 @media (min-width: 1200px){
   .container {
     width: 1200px;
