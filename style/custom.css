@@ -48,7 +48,7 @@ a:hover{
 h1,h2,h3,h4,h5,h6{
   font-family: 'Poppins';
 }
-h1{
+h1,h2{
   font-size: 80px;
   font-weight: 600;
   font-style: normal;
@@ -60,6 +60,11 @@ h1{
   margin: 204px 0 0px;
   position: relative;
 }
+h2{
+  margin: 204px 0 0px;
+  text-align: left;
+  line-height: 1.25;
+}
 h3{
   font-size: 56px;
   font-weight: 600;
@@ -70,6 +75,16 @@ h3{
   text-align: left;
   color: #222;
   margin: 0;
+}
+h4{
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #ffffff;
 }
 p, time, .page-item{
   font-size: 24px;
@@ -146,10 +161,17 @@ section{
 .line-mask{
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 .line-mask-green{
   left: -10px;
+}
+.line-mask.line-mask-top{
+  top: -1px;
+}
+.line-mask-green.line-mask-top{
+  left: inherit;
+  right: -7px;
 }
 .square::before{
   content: '';
@@ -183,6 +205,32 @@ header .logo,
   font-size: 16px;
   line-height: 2;
   letter-spacing: -0.4px;
+}
+header.header-white .navbar{
+  border-right-color: rgba(255,255,255, 0.1);
+  border-left-color: rgba(255,255,255, 0.1);
+}
+header.header-white  .nav-link,
+header.header-white  .dropdown-item {
+  color: #fff;
+}
+header.header-white .dropdown-menu{
+  background-color: inherit;
+  border-color: rgba(255,255,255, 0.1);
+}
+header.header-white .dropdown-item:hover{
+  color: #6abf4b;
+}
+header.header-white .btn-nav button{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.4px;
+  color: #6abf4b;
+  background-color: inherit;
+  border: 0px;
+} 
+header.header-white .btn-nav button:hover{
+  color: #fff;
 }
 /* ========= End Nav ============= */
 
@@ -433,7 +481,121 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-
+.page-top-home {
+  height: 820px;
+  border-top: 1px solid ;
+  border-top-color: rgba(255,255,255, 0.1);
+}  
+.page-top-home p{
+  font-size: 40px;
+  line-height: 1.35;
+  letter-spacing: -1.5px;
+}
+.page-top-home .texture-bg{
+  width: 700px;
+  height: 700px;
+  right: 0;
+  bottom: 0;
+}
+.page-top-home .btn-white{
+  border-color: rgba(151,151,151, 0.5);
+  color: #fff;
+}
+.page-top-home .btn-white:hover{
+  border-color: #6abf4b;
+  color: #fff;
+  background-color: #6abf4b
+}
+.page-top-home .btn-green:hover{
+  background-color: inherit;
+  border-color: rgba(151,151,151, 0.5);
+  color: #fff;
+}
+.sentio-home{
+  padding: 238px 0 170px;
+}
+.sentio-home .text-block{
+  max-width: 847px;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+.sentio-home .text-block h3{
+  margin-bottom: 12px;
+}
+.sentio-home .texture-bg{
+  top: 0;
+  right: 0;
+}
+.sentio-home .text-block::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 114px;
+  height: 112px;
+  background-image: url(./../img/icons/symbol.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -154px;
+  top: -18px;
+}
+.sentio-black{
+  background-color: #222;
+}
+.sentio-black .text-block{
+  padding: 162px 0 20px;
+} 
+.sentio-black .text-box{
+  max-width: 360px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 74px;
+}
+.sentio-black p{
+  font-family: 'Poppins-Regular';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.7;
+} 
+.sentio-black .text-box::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-color: #6abf4b;
+  background-position: center;
+  left: -97px;
+  top: -20px;
+}
+.sentio-black .text-box{
+  margin-left: 97px;
+}
+.sentio-black .text-box-1::before{
+  background-image: url(./../img/icons/1.svg);
+}
+.sentio-black .text-box-2::before{
+  background-image: url(./../img/icons/2.svg);
+}
+.sentio-black .text-box-3::before{
+  background-image: url(./../img/icons/3.svg);
+}
+.sentio-black .text-box-4::before{
+  background-image: url(./../img/icons/4.svg);
+  background-position: 20px 17px;
+}
+.sentio-black .left-texture{
+  left: 0;
+  bottom: 25px;
+}
 /* =========End Index ========== */
 
 /* ========== News ============= */
