@@ -94,6 +94,12 @@ p, time, .page-item{
   line-height: 1.67;
   letter-spacing: -0.9px;
 }
+p.text-size40{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -1.5px;
+}
 .font16{
   font-size: 16px;
 }
@@ -595,6 +601,20 @@ video {
 .sentio-black .left-texture{
   left: 0;
   bottom: 25px;
+}
+.paper-home{
+  padding: 157px 0 80px;
+  background-color: #fcfcfc;
+}
+.paper-home .paper-img img{
+  width: 458px;
+  height: auto;
+  margin-left: 80px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+}
+.paper-home-text{
+  margin-top: 89px;
+  margin-bottom: 60px;
 }
 /* =========End Index ========== */
 
