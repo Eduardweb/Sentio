@@ -3,6 +3,7 @@
 /* == Footer == */
 /* == All Page ==* /
 /* == Index == */
+/* == About == */
 /* == News == */
 /* == Contact Us == */
 @font-face {
@@ -114,6 +115,9 @@ p.text-size40{
 }
 .color-grey{
   color: #646464;
+}
+.box-shadow-img{
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
 }
 section{
   width: 100%;
@@ -610,13 +614,78 @@ video {
   width: 458px;
   height: auto;
   margin-left: 80px;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
 }
 .paper-home-text{
   margin-top: 89px;
   margin-bottom: 60px;
 }
-/* =========End Index ========== */
+/* ========= End Index ========== */
+.top-about{
+  padding: 70px 0 100px;
+}
+.opaciti-title{
+  opacity: 0.5;
+  font-size: 144px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -5.4px;
+  text-align: left;
+  color: #e6e6e6;
+  margin: 0;
+}
+.underline{
+  text-decoration: underline;
+}
+.underline:hover{
+  text-decoration: none;
+}
+.triumphal-img img{
+  width: 458px;
+  height: auto;
+  margin-top: 115px;
+  margin-left: 180px
+}
+.about-main{
+  padding: 291px 0 185px;
+  background-image: url(./../img/bg-table.jpg);
+}
+.about-main .texture-bg {
+  top: 118px;
+  right: 0;
+}
+.about-main p + p{
+  margin: 30px 0 0;
+}
+.about-main .text-block::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 114px;
+  height: 112px;
+  background-image: url(./../img/icons/symbol-white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 15px;
+  top: -152px;
+}
+.btn-about{
+  padding: 150px 0 80px;
+}
+.btn-about-text{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.btn-about .btn-img img{
+  width: 458px;
+  height: auto;
+  margin-left: -260px;
+}
+
+/* ========= About ============== */
+
+/* ========= End About ========== */
+
+
 
 /* ========== News ============= */
 .news-main {
