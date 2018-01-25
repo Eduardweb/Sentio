@@ -4,6 +4,8 @@
 /* == All Page ==* /
 /* == Index == */
 /* == About == */
+/* == SentioAi == */
+/* == SentioQC == */
 /* == News == */
 /* == Contact Us == */
 @font-face {
@@ -118,6 +120,9 @@ p.text-size40{
 }
 .box-shadow-img{
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+}
+.marign-b-70{
+  margin-bottom: 70px;
 }
 section{
   width: 100%;
@@ -409,6 +414,9 @@ header .btn-nav button{
 .about{
   background-image: url(./../img/bg-about.jpg);
 }
+.products-and-services{
+  background-image: url(./../img/bg-about.jpg);
+}
 .sentioAI{
   background-image: url(./../img/bg-sentioAI.jpg);
 }
@@ -561,7 +569,7 @@ video {
   position: relative;
   margin-bottom: 74px;
 }
-.sentio-black p{
+.sentio-black.home p{
   font-family: 'Poppins-Regular';
   font-size: 16px;
   font-weight: normal;
@@ -620,6 +628,8 @@ video {
   margin-bottom: 60px;
 }
 /* ========= End Index ========== */
+
+/* ========= About ============== */
 .top-about{
   padding: 70px 0 100px;
 }
@@ -680,12 +690,67 @@ video {
   height: auto;
   margin-left: -260px;
 }
-
-/* ========= About ============== */
-
 /* ========= End About ========== */
 
+/* ========= SentioAi =========== */
+.sentios-img-section{
+  padding: 100px 0 120px;
+}
+.sentios-img-section .sentioAi-text{
+  margin-top: 90px;
+}
+.sentios-img-section .sentioAi-text p{
+  margin-bottom: 30px;
+}
+.sentios-img-section .sentioAi-img img{
+  width: 458px;
+  height: auto;
+  margin-left: 80px;
+}
+.sentios-img-section .btn-block{
+  margin: 0;
+}
+/* ========= End SentioAi ======= */
 
+/* ========= SentioQC =========== */
+.sentioQC-view{
+  padding: 110px 0 145px;
+}
+.sentioQC-view .texture-bg {
+  right: 0;
+  bottom: 172px;
+}
+.sentio-black.sentioQC-black .text-block{
+  padding: 177px 0 150px;
+}
+.sentioQC-black .sentio-black-title{
+  margin-bottom: 96px;
+  max-width: 1100px;
+}
+.sentio-black.sentioQC-black .text-box {
+  max-width: 415px;
+  margin-bottom: 74px;
+}
+.sentio-black.sentioQC-black .text-box::before{
+  background-color: #fff;
+  top: 0px;
+}
+.sentio-black.sentioQC-black .text-box-4::before{
+  background-position: center;
+}
+.sentio-black.sentioQC-black .text-box-1::before {
+  background-image: url(./../img/icons/a.svg);
+} 
+.sentio-black.sentioQC-black .text-box-2::before {
+  background-image: url(./../img/icons/b.svg);
+} 
+.sentio-black.sentioQC-black .text-box-3::before {
+  background-image: url(./../img/icons/c.svg);
+} 
+.sentio-black.sentioQC-black .text-box-4::before {
+  background-image: url(./../img/icons/d.svg);
+}  
+/* ========= End SentioAi ======= */
 
 /* ========== News ============= */
 .news-main {
