@@ -752,6 +752,22 @@ video {
 }  
 /* ========= End SentioAi ======= */
 
+/* ========= SentioQAI-projects ====== */
+.sentioQAI-projects-view{
+  padding: 100px 0 58px;
+}
+.sentioQAI-projects-view .text-box{
+  max-width: 682px;
+}
+.sentioQAI-projects-view p{
+  margin-bottom: 30px;
+}
+.sentioQAI-projects-view .img-box img{
+  top: 103px;
+  margin-left: 120px;
+}
+/* ========= End SentioQAI-projects == */
+
 /* ========== News ============= */
 .news-main {
   padding: 110px 0 150px;
