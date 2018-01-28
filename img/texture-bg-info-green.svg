@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="552" viewBox="0 0 560 552">
+    <g fill="#FFF" fill-rule="evenodd">
+        <path d="M280 140h140v140H280z" opacity=".05"/>
+        <path d="M280 420h140v140H280z" opacity=".03"/>
+        <path d="M140 280h140v140H140z" opacity=".05"/>
+        <path d="M420 0h140v140H420zM420 280h140v140H420z" opacity=".1"/>
+        <path d="M0 140h140v140H0z" opacity=".04"/>
+    </g>
+</svg>
