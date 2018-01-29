@@ -1727,6 +1727,9 @@ video {
     margin-top: 0;
     margin-bottom: 30px;
   }
+  header .btn-nav button {
+    right: 90px;
+  }
   .page-top-home {
     height: 450px;
   }
@@ -1755,7 +1758,7 @@ video {
    margin-bottom: 0;
  }
 }
-@media screen and (max-width: 374px){
+@media screen and (max-width: 450px){
   .footer-bottom .input-group {
     width: 300px;
     margin: auto;
